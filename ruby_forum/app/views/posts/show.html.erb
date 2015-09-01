@@ -1,0 +1,9 @@
+<%=link_to("<<< Go Back",{:action => "index"})%>
+<br>
+<%=@post.topic%>
+<br>
+<%=@post.user_name%>
+<br>
+<%=@post.user_post%>
+
+<%=link_to("de",{:action => "destroy", :id => @post.id})%>

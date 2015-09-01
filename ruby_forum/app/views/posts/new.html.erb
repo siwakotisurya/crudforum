@@ -1,0 +1,9 @@
+<%=form_for :posts, url:{:action => "create"} do |f|%>
+<%=f.text_field :topic%>
+<hr>
+<%=f.text_field :user_name%>
+<hr>
+<%=f.text_field :user_post%>
+<hr>
+<%= f.submit("Create")%>
+<%end%>
